@@ -5,6 +5,7 @@
         <title>NAVER</title>
         <link rel="socrtcut icon" type="image/x-icon" href="./favicon.ico"/>
         <link rel="stylesheet" href="./naver.css">
+        <link rel="stylesheet" href="./webfont.css">
     </head>
     <body>
         <header>
@@ -21,6 +22,7 @@
             </h1>
             </a>
             <h2 class="blind">검색창</h2>
+            <form class="inline-block" action="https://www.instagram.com/sooooonyong.e/">
             <fieldset style="vertical-align: middle;">
             <legend class="blind">검색</legend>
             <input/>
@@ -30,6 +32,7 @@
                 <span id="search-image"></span>
             </button>
         </fieldset>
+        </form>
         </div>
         </div>
         </header>
@@ -39,7 +42,7 @@
                 <h2 class="blind">실시간 검색어</h2>
                 <div>
                 <span id="rank-number">1</span>
-                <span id="rank-title">권순용</span>
+                <span id="rank-title">윤선영 사랑해</span>
                 </div>
                 <ul>
                     <li>
@@ -115,7 +118,7 @@
         <div id="main-login">
             <h3 class="blind">로그인</h3>
             <div class="login-wrapper">
-                <span class="login-text">네이버를 더 안전하고 편리하게 이용하세요</span>
+                <span class="login-text">네이버를 더 안전하고 편리하게 이용하세요.</span>
                 <a href="https://nid.naver.com/nidlogin.login?mode=form&url=https%3A%2F%2Fwww.naver.com">
                 <span class="blind">NAVER 로그인</span>
                 <span class="login-image"></span>
@@ -134,43 +137,87 @@
         <div id="main-second-block">
             <div class="float-left">
             <div id="main-ytn">
-                <h3>연합뉴스</h3>
+                <h3>연합뉴스 > </h3>
                 <ol>
                     <li>속보)코딩 잘하고 싶다....</li>
                 </ol>
             </div>
-            <div id="main-newsstand">
-        <h3>뉴스스탠드</h3>
+            <div id="main-newsstand" style="background-color: white;">
+        <h3>뉴스스탠드 > 구독한 언론사</h3>
         <ul>
-            <li><img src="./세계일보.png" alt="세계일보"/></li>
+            <li><img src="./파이낸션.png" alt="파이낸셜"/></li>
+            <li><img src="./jtbc.png" alt="jtbc"/></li>
+            <li><img src="./한국일보.png" alt="한국일보"/></li>
             <li><img src="./뉴시스.png" alt="프레시안"/></li>
-            <li><img src="./스포츠서울.png" alt="스포츠서울"/></li>
-            <li><img src="./세계일보.png" alt="세계일보"/></li>
-            <li><img src="./뉴시스.png" alt="프레시안"/></li>
-            <li><img src="./스포츠서울.png" alt="스포츠서울"/></li>
-            <li><img src="./세계일보.png" alt="세계일보"/></li>
-            <li><img src="./뉴시스.png" alt="프레시안"/></li>
-            <li><img src="./스포츠서울.png" alt="스포츠서울"/></li>
-            <li><img src="./세계일보.png" alt="세계일보"/></li>
-            <li><img src="./뉴시스.png" alt="프레시안"/></li>
-            <li><img src="./스포츠서울.png" alt="스포츠서울"/></li>
-            <li><img src="./세계일보.png" alt="세계일보"/></li>
-            <li><img src="./뉴시스.png" alt="프레시안"/></li>
-            <li><img src="./스포츠서울.png" alt="스포츠서울"/></li>
-            <li><img src="./세계일보.png" alt="세계일보"/></li>
-            <li><img src="./뉴시스.png" alt="프레시안"/></li>
-            <li><img src="./스포츠서울.png" alt="스포츠서울"/></li>
+            <li><img src="./한국경제.png" alt="한국경제"/></li>
+            <li><img src="./아이뉴스.png" alt="아이뉴스"/></li>
+            <li><img src="./중앙일보.png" alt="중앙일보"/></li>
+            <li><img src="./문화일보.png" alt="문화일보"/></li>
+            <li><img src="./디지털타임스.png" alt="디지턺   "/></li>
+            <li><img src="./스포츠조선.png" alt="스포츠조선"/></li>
+            <li><img src="./kbs.png" alt="kbs"/></li>
+            <li><img src="./서울신문.png" alt="서울신문"/></li>
+            <li><img src="./조선일보.png" alt="조선일보"/></li>
+            <li><img src="./지지통신.png" alt="지지통신"/></li>
+            <li><img src="./뉴스타파.png" alt="뉴스타파"/></li>
+            <li><img src="./인천일보.png" alt="인천일보"/></li>
+            <li><img src="./경인일보.png" alt="경인일보"/></li>
+            <li><img src="./중부일보.png" alt="중부일보"/></li>
         </ul>
         </div>
         </div>
             <div class="float-left">
-            <div id="main-weather"></div>
+            <div id="main-weather" >
+                <a href="">(공지) 코로나바이러스감염증-19 현황</a>
+                <button id="prev">
+                    <span class="blind">이전 주제</span>
+                    <span>&gt;</span>
+                </button>
+                <button id="next">
+                    <span class="blind">다음 주제</span>
+                    <span>&lt;</span>
+                </button>
+            </div>
             <div id="main-second-ad"></div>
             </div>
         </div>
         <div id="main-third-block">
         <div id="main-category">
-            <h3>주제별 보기</h3>
+            <h3 class="blind">주제별 보기</h3>
+            <div id="main-category-top">
+                <button id="subject-all">
+                    <span class="blind">전체 주제 열기</span>
+                    <span></span>
+                </button>
+                <div id="subject-list">
+                    <div class="opacity left"></div>
+                    <ul>
+                        <li>리빙</li>
+                        <li>푸드</li>
+                        <li>스포츠</li>
+                        <li>자동차</li>
+                        <li>패션뷰티</li>
+                        <li>부모i</li>
+                        <li class="highlight">건강</li>
+                        <li>웹툰</li>
+                        <li>게임</li>
+                        <li>티비</li>
+                        <li>TV연예</li>
+                        <li>뮤직</li>
+                        <li>영화</li>
+                        <li>책문화</li>
+                      </ul>
+                      <div class="opacity right"></div>
+                </div>
+                <button id="subject-prev">
+                    <span class="blind">이전 주제</span>
+                    <span></span>
+                </button>
+                <button id="subject-next">
+                    <span class="blind">다음 주제</span>
+                    <span></span>
+                </button>
+            </div>
         </div>
         <div id="main-shopping">
             <iframe

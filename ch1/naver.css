@@ -157,31 +157,31 @@ nav ul{
     margin-left: 10px;
 
 }
-#nav-menu li:first-child span:first-child{
-    width:25px;
-    background-position: 0 -285px;
-    margin-left: 0;
-}
-#nav-menu li:nth-child(2) span:first-child{
-    width:27px;
+#nav-menu li:nth-child(2) span:first-child {
+    width: 27px;
     background-position: -279px -52px;
 }
-#nav-menu li:nth-child(3) span:first-child{
-    width:40px;
+
+#nav-menu li:nth-child(3) span:first-child {
+    width: 40px;
     background-position: -100px -182px;
 }
-#nav-menu li:nth-child(4) span:first-child{
-    width:40px;
+
+#nav-menu li:nth-child(4) span:first-child {
+    width: 40px;
     background-position: -101px -156px;
 }
-#nav-menu li:nth-child(5) span:first-child{
-    width:26px;
+
+#nav-menu li:nth-child(5) span:first-child {
+    width: 26px;
     background-position: -279px -156px;
 }
-#nav-menu li:nth-child(6) span:first-child{
-    width:25px;
+
+#nav-menu li:nth-child(6) span:first-child {
+    width: 25px;
     background-position: -70px -285px;
 }
+
 #nav-menu li:nth-child(7) span:first-child {
     width: 35px;
     background-position: -125px -130px;
@@ -207,8 +207,8 @@ nav ul{
     background-position: -151px -156px;
 }
 
-#nav-menuli:nth-child(12) span:first-child {
-    width: 28px;
+#nav-menu li:nth-child(12) span:first-child {
+    width: 26px;
     background-position: -279px -130px;
 }
 
@@ -216,6 +216,7 @@ nav ul{
     width: 28px;
     background-position: -234px -233px;
 }
+
 #nav-menu li:nth-child(14) span:first-child {
     width: 26px;
     background-position: -72px -259px;
@@ -285,7 +286,7 @@ main {
     float: left;
     width: 740px;
     height: 120px;
-    background: #555;
+    background: url(./main-ad.jpg);
     margin-bottom: 8px;
     margin-right: 8px;
 }
@@ -296,6 +297,7 @@ main {
     vertical-align: top;
     background-color: white;
     margin-bottom: 8px;
+    border: 1px solid #e4e8eb;
 }
 #main-login .login-wrapper{
     padding: 15px 25px;
@@ -345,12 +347,23 @@ main {
 #main-login .login-pw:hover {
     text-decoration: underline;
 }
+#main-ytn h3, #main-newsstand h3 {
+    font-size: 14px;
+    font-family: NanumSquare,Dotum,"돋움",Helvetica,AppleSDGothicNeo,sans-serif;
+    padding-top: 15px;
+    padding-left: 15px;
+    vertical-align: top;
+}
 #main-ytn{
     display: inline-block;
     width: 740px;
     height: 46px;
     background-color: white;
     margin-bottom: 8px;
+}
+#main-newsstand img{
+    width: 64px;
+    height: 20px;
 }
 #main-ytn h3, 
 #main-ytn ol{
@@ -362,6 +375,7 @@ main {
     height: 246px;
     background-color: white;
     margin-right: 8px;
+    vertical-align: top;
 }
 #main-newsstand h3{
     height: 45px;
@@ -389,15 +403,30 @@ main {
 #main-weather{
     display: inline-block;
     width: 332px;
-    height: 142px;
-    background: #555;
+    height: 47px;
+    background:white;
     margin-bottom: 8px;
     vertical-align: top;
+    border: 1px solid #e4e8eb;
+    text-align:center;
+    padding: 14px;
+    font-size: 12px;
+    color: #666;
+    text-decoration: none;
+}
+#main-weather a{
+    font-size: 12px;
+    color: #666;
+    text-decoration: none;
+}
+#main-weather a:hover{
+    text-decoration: underline;
 }
 #main-second-block{
     display: inline-block;
     vertical-align: top;
     margin-top: 8px;
+    margin-bottom: 8px;
 }
 #main-second-block .float-left:first-child{
     width: 740px;
@@ -408,23 +437,23 @@ main {
     vertical-align: top;
 }
 #main-second-ad{
-    display: inline-block;
     width: 332x;
-    height: 150px;
-    background: #555;
+    height: 243px;
+    background: url(./second-ad.jpg);
+    vertical-align: top;
 }
 #main-category{
     float: left;
     width: 740px;
     height: 837px;
     background: white;
-    margin-top: 8px;
+    margin-bottom: 8px;
     margin-right: 8px;
 }
 #main-shopping{
     float: left;
     width: 330px;
-    height: 882px;
+    height: 836px;
     background: white;
     margin-bottom: 8px;
 }
@@ -444,14 +473,125 @@ main {
     height: 130px;
     background: white;
     vertical-align: top;
-    margin-bottom: 8px;
+    margin-right: 8px;
 }
 #main-third-ad{
     float: left;
-    width: 332px;
+    width: 330px;
     height: 130px;
     background: #555;
 }
+#main-categoty-top{
+    display: inline-block;
+    width: 100%;
+    border-bottom: 1px solid #ebeef3;
+}
+#subject-list, #subject-all, #subject-prev, #subject-next{
+    float: left;
+    height: 45px;
+    padding: 0;
+}
+#subject-list{
+    width: 603px;
+    position: relative;
+}
+#subject-list ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    height: 45px;
+    width: 700px;
+}
+#subject-list li{
+    float: left;
+    margin-right: 10px;
+    padding: 14px 7px 0;
+    font-size: 14px;
+    font-family: NanumSquare,Dotum,"돋움",Helvetica,AppleSDGothicNeo,sans-serif;
+}
+.opacity{
+    opacity: 0.5;
+    background: white;
+}
+.opacity.left{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 45px;
+    width: 15px;
+
+}
+.opacity.right{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 45px;
+    width: 15px;
+}
+#subject-list li.highlight{
+    border-bottom: 3px solid #00c73c;
+    color: #00b336;
+    font-weight: 700;
+    height: 45px;
+}
+#subject-all, #subject-prev, #subject-next{
+    position: relative;
+    width: 45px;
+    background: white;
+    border:none;
+    border-left: 1px solid #ebeef3;
+}
+#subject-all span:last-child{
+    position: absolute;
+    top: 15px;
+    left: 12px;
+    width: 20px;
+    height: 14px;
+    background: url(./sp_themecast.png);
+    background-repeat: no-repeat;
+    background-position: -218px -257px;
+}
+#subject-prev span:last-child{
+    position: absolute;
+    top: 15px;
+    left: 16px;
+    width: 8px;
+    height: 16px;
+    background: url(./sp_themecast.png);
+    background-repeat: no-repeat;
+    background-position: -320px 0;
+}
+#subject-next span:last-child {
+    position: absolute;
+    top: 15px;
+    left: 16px;
+    width: 8px;
+    height: 16px;
+    background-image: url(./sp_themecast.png);
+    background-repeat: no-repeat;
+    background-position: -320px -52px;
+}
+#prev, #next{
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background: white;
+    border: 1px solid #ebeef3;
+    vertical-align: top;
+    line-height: 0;
+    margin-top: -4px;
+}
+#next{
+    margin-left: -6px;
+    padding: 0;
+    float: right;
+}
+#prev{
+    float: right;
+}
+
 /*
 #header-center h1{
 
