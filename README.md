@@ -5,6 +5,6 @@
 
 ***
 
-[미리보기](./ch1/naver.html)
+[미리보기](https://boyfromthewell.github.io/NAVER-home-screen-with-HTML-CSS/naver.html)
 
 <참고> https://www.youtube.com/channel/UCp-vBtwvBmDiGqjvLjChaJw (제로초 유튜브)
